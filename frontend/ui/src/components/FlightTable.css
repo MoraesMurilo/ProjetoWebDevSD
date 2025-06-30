@@ -1,0 +1,55 @@
+/* Container principal da tabela de voos */
+flight-table-container {
+  margin-top: 1rem;
+}
+
+/* Campo de filtro acima da tabela */
+.flight-filter {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+/* Wrapper que limita a altura da tabela e permite rolagem vertical */
+.table-wrapper {
+  max-height: 300px; 
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Estilo base da tabela */
+.flight-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+}
+
+/* Cabeçalho da tabela */
+.flight-table th {
+  background-color: #f1f3f4;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Células da tabela */
+.flight-table td {
+  padding: 0.8rem 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* Estilo ao passar o mouse sobre uma linha da tabela */
+.flight-table tr:hover {
+  background-color: #f9fbfc;
+}
+
+/* Estilo para linha selecionada da tabela */
+.flight-table tr.selected {
+  background-color: #e8f0fe;
+}

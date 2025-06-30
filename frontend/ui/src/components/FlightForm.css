@@ -1,0 +1,57 @@
+/* Estiliza o formulário de voo com fundo branco, bordas arredondadas, sombra e centralização */
+.flight-form {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+/* Estiliza o título do formulário */
+.flight-form h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Estiliza os rótulos dos campos */
+.flight-form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Estiliza os campos de entrada (input) */
+.flight-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Estiliza o botão de envio do formulário */
+.flight-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Altera a cor do botão ao passar o mouse (hover) */
+.flight-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estiliza mensagens de erro no formulário */
+.flight-form .error {
+  color: #d33;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}

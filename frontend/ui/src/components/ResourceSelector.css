@@ -1,0 +1,59 @@
+/* Estilo principal do seletor de recursos: cartão com fundo branco e sombra */
+resource-selector {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 400px;
+}
+
+/* Cabeçalho do seletor, com label e dropdown alinhados horizontalmente */
+.selector-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Estiliza o rótulo do cabeçalho */
+.selector-header label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+/* Estiliza o dropdown de tipo de recurso */
+.selector-header select {
+  padding: 0.4rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Remove marcadores e espaçamento da lista de recursos */
+.resource-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cada item da lista de recursos com layout em linha e separação por borda */
+.resource-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Botão para alocar recurso com estilo chamativo */
+.resource-item button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+/* Cor do botão muda ao passar o mouse */
+.resource-item button:hover {
+  background-color: #155ab6;
+}

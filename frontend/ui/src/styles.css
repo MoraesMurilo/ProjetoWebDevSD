@@ -1,0 +1,81 @@
+/* Estilo global do corpo da página */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif; 
+  font-size: 16px;                             
+  background-color: #f4f6f8;                 
+  color: #333;                                
+  margin: 0;
+  padding: 0;
+}
+
+/* Título principal da aplicação */
+.app-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Container das métricas do dashboard */
+.app-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Cartão individual de métrica (ex: voos, recursos, etc.) */
+.metric-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08); 
+  padding: 1rem;
+  text-align: center;
+  flex: 1;
+  margin: 0.5rem;
+  min-width: 150px;
+  transition: transform 0.2s; /* Animação ao passar o mouse */
+}
+
+/* Efeito de destaque ao passar o mouse no cartão */
+.metric-card:hover {
+  transform: scale(1.02);
+}
+
+/* Título de cada métrica (ex: "Pistas Livres") */
+.metric-title {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Valor de destaque da métrica (ex: "5") */
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+/* Estilo base para botões */
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Cor do botão ao passar o mouse */
+button:hover {
+  background-color: #155ab6;
+}
+
+/* Estilo para campos de seleção e texto */
+select, input[type="text"] {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+}
