@@ -42,6 +42,10 @@ Ademais, tive que alterar o valor da variável base_url no frontend/ui/src/servi
 baseURL: 'http://localhost:4000/api/v1'
 para 'http://147.79.106.136:4000/api/v1'
 
+Adicionei a API ao PM2 além do frontend, para que esteja disponível mesmo que a conexão SSH entre o meu computador e a máquina se encerre.
+
+
+
 Assim foi possível expor a API para uso não só na máquina local mas em browsers de máquinas diferentes.
 
 Com essas pequenas alterações, a aplicação agora está acessível remotamente.
